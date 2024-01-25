@@ -3,7 +3,7 @@ const router = require('express').Router();
 const apiRoutes = require('./api');
 
 // routes for the api
-router.use('./api', apiRoutes);
+router.use('/api', apiRoutes);
 
 // route for incorrect pathway
 router.use((req, res) => {
