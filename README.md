@@ -1,1 +1,2 @@
 # NoSQL-Social-Network
+This Node.js application is a Social Network site built using a NoSQL database which allows users to perform CRUD operations. The data models included are friends, users, thoughts and reactions which can be retrieved by the users. This application uses Mongoose and Express as well.
